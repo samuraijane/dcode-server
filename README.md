@@ -3,7 +3,7 @@ This server provides backend functionality for *dCode Client*.
 
 ### Installation (Mac)
 * `cd ~/Documents/<yourprojectsfolder>`
-* `git clone` to your machine
+* `git clone https://github.com/samuraijane/dcode-server.git`
 * `cd dcode-server`
 * `npm install`
 
