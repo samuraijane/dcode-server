@@ -10,7 +10,7 @@ This server provides backend functionality for *dCode Client*.
 ### Create A Local Database
 This application uses MongoDB, v3.6.0. If you do not have Mongo installed, see these [instructions](https://docs.mongodb.com/manual/installation/).
 * Spin up a MongoDB server with `mongod`
-* Import mock data with `mongoimport --db dcode --collection categories --drop --file ~/Documents/<yourprojectsfolder>/dcode-server/mocks/seed-data-codes.json`
+* In a separate terminal window, import mock data with `mongoimport --db dcode --collection categories --drop --file ~/Documents/<yourprojectsfolder>/dcode-server/mocks/seed-data-codes.json`
 
 
 ### Verify with Postman
