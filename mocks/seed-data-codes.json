@@ -1,0 +1,3 @@
+{"name": "Accounts", "summary": "The Accounts category records transfers between accounts only."}
+{"name": "Advances", "summary": "Advances tracks monetary loans that do not exceed $1,000 per transaction."}
+{"name": "Animals", "summary": "This include everything related to pets except for dog food."}
