@@ -15,4 +15,4 @@ This application uses MongoDB, v3.6.0. If you do not have Mongo installed, see t
 
 ### Verify with Postman
 * Execute a GET request in Postman with `localhost:3001/categories`
-* If the application is working properly, you will three objects returned in an array
+* If the application is working properly, you will see three objects returned in an array
