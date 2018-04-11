@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 
-const {PORT, DATABASE_URL} = require('./config');
+const {PORT, DATABASE_URL, MONGODB_URI} = require('./config');
 const {router: categoriesRouter} = require('./routes/categories');
 
 const app = express();
@@ -21,7 +21,8 @@ app.use('/categories', categoriesRouter);
 
 let server;
 
-function runServer(databaseUrl=DATABASE_URL, port=PORT) {
+// make databaseUrl=DATABASE_URL when working with a local database
+function runServer(databaseUrl=MONGODB_URI, port=PORT) {
   let promise = new Promise( (resolve, reject) => {
     mongoose.connect(databaseUrl, err => {
       if(err) {
